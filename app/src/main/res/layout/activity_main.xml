@@ -1,0 +1,48 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <TextView
+        android:layout_margin="10dp"
+        android:text="@string/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:background="#00aabb"
+        android:id="@+id/UNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:text="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:background="#00aabb"
+        android:id="@+id/PWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="LOGIN"
+        android:layout_margin="10dp"
+        android:id="@+id/LOGINBTN"
+        android:background="@drawable/butttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="GO TO REGISTER"
+        android:layout_margin="10dp"
+        android:id="@+id/REGISTERBTN"
+        android:background="@drawable/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    
+    
+    
+</LinearLayout>

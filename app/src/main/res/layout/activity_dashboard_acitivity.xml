@@ -1,0 +1,50 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background1"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="ADD COURSE"
+        android:layout_margin="10dp"
+        android:background="@drawable/butttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adcourse"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD FACULTY"
+        android:layout_margin="10dp"
+        android:background="@drawable/butttonstyle"
+        android:id="@+id/adfaculty"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD EXAMS"
+        android:background="@drawable/butttonstyle"
+        android:layout_margin="10dp"
+        android:id="@+id/adexam"/>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:text="VIEW WEBSITE"
+    android:background="@drawable/butttonstyle"
+    android:layout_margin="10dp"
+    android:id="@+id/viewbtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/logoutbtn"
+    android:text="LOGOUT"
+    android:background="@drawable/butttonstyle"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+
+
+
+
+</LinearLayout>
